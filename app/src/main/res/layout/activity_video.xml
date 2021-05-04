@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/Theme.AppCompat.Light.NoActionBar"
+    tools:context=".video.VideoActivity">
+
+
+
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="385dp"
+        android:src="@drawable/ic_launcher_background"
+         />
+
+<!--    <SurfaceView-->
+<!--        android:id="@+id/surfaceView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginBottom="375dp"-->
+<!--         />-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="508dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-40dp"
+        app:srcCompat="@drawable/floorplan" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cameraButton"
+        android:contentDescription="@string/camera_button"
+        android:src="@mipmap/btn_upload"
+        android:layout_alignTop="@+id/recordingButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="57dp" />
+
+    <ImageButton
+        android:id="@+id/recordingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="314dp"
+        android:contentDescription="@string/video_button"
+        android:src="@mipmap/btn_video_online" />
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/recordingButton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="402dp"
+        android:textColor="#ff0000"
+        android:textSize="25dp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="314dp"
+        android:text="Stop" />
+
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tile_Localization.iml" filepath="$PROJECT_DIR$/.idea/modules/Tile_Localization.iml" group="Tile_Localization" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Tile Localization/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/openCVLibrary3410/openCVLibrary3410.iml" filepath="$PROJECT_DIR$/.idea/modules/openCVLibrary3410/openCVLibrary3410.iml" group="Tile Localization/openCVLibrary3410" />
+    </modules>
+  </component>
+</project>

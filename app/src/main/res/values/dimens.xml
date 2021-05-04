@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="defaultWidth">1000px</dimen>
+    <dimen name="defaultHeight">1000px</dimen>
+    <dimen name="defaultSegmentButtonWidth">150px</dimen>
+    <dimen name="defaultSegmentButtonHeight">150px</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>
